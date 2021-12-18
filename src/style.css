@@ -1,8 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: #eeeeee;
 }
 h1 {
-  color: #878787;
+  color: #085ed6;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,6 +21,7 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+  font-family: "Raleway", sans-serif;
 }
 li:first-letter {
   text-transform: capitalize;
@@ -39,9 +41,9 @@ li:first-letter {
   margin-bottom: 20px;
 }
 .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  margin-right: -3px;
+  height: 70px;
+  width: 70px;
 }
 .weather-temperature strong {
   color: rgb(33, 33, 33);
@@ -53,11 +55,21 @@ li:first-letter {
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: 5px;
+  top: 10px;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   text-decoration: none;
+}
+.weather-app {
+  background-color: white;
+}
+#city {
+  font-family: "Raleway", sans-serif;
+}
+#city-input {
+  background-color: #eeeeee;
 }
